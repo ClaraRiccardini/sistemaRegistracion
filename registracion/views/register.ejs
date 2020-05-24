@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Register </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+        <h1>REGISTER</h1>
+
+        <form method="POST" action="/users/register" enctype="multipart/form-data">
+            <label for="">Nombre</label>
+            <input type="text" name="nombre">
+            <br>
+            <label for="">Apellido</label>
+            <input type="text" name="apellido">
+            <br>
+            <label for="">E-mail</label>
+            <input type="email" name="email">
+            <br>
+            <label for="">Contraseña</label>
+            <input type="password" name="password" id="">
+            <br>
+            <label for="">Repetir contraseña</label>
+            <input type="password" name="validacion">
+            <br>
+            <label for="">Avatar</label>
+            <input type="file" name="avatar">
+            <br>
+            <input type="submit" value="Registrarme">
+
+        </form>
+  </body>
+</html>
